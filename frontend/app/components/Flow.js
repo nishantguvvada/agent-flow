@@ -14,6 +14,7 @@ import FetchProductNode from './FetchProductNode';
 import GetWeatherNode from './GetWeatherNode';
 import ChatNode from './ChatNode';
 import axios from 'axios';
+import toast from 'react-hot-toast';
 
 // Agent node: allows edges to be created from its right side
 const AgentNode = ({ data }) => (

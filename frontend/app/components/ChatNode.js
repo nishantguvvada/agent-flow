@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Handle, Position } from 'reactflow';
 import axios from 'axios';
+import toast from 'react-hot-toast';
 
 const ChatNode = ({ data }) => {
   const [inputValue, setInputValue] = useState('');
