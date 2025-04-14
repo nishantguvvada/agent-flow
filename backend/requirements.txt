@@ -1,0 +1,9 @@
+langgraph
+langchain_google_genai
+langchain_core
+pydantic
+python-dotenv
+pymongo
+requests
+fastapi
+uvicorn
